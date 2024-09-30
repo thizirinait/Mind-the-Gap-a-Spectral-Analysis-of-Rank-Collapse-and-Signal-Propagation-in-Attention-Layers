@@ -309,14 +309,13 @@ if __name__ == "__main__":
     print(device)
 
     for _, (config, params) in enumerate(configs.items()):
-        if "upscaled" not in config and "Identity" not in config:
-            produce_gradients_norms_bis(
-                config,
-                params,
-                options.max_depth,
-                options.intermediary_layer,
-                list_n=options.list_n,
-                n_simulations=options.n_simulations,
-                list_gammas=options.list_gammas,
-                device=device,
-            )
+        produce_gradients_norms_bis(
+            config,
+            params,
+            options.max_depth,
+            options.intermediary_layer,
+            list_n=options.list_n,
+            n_simulations=options.n_simulations,
+            list_gammas=options.list_gammas,
+            device=device,
+        )
