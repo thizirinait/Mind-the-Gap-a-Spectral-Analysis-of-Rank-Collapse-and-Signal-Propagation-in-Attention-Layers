@@ -1,4 +1,4 @@
--- To activate the conda environment. The only issue with the env is to install pytorch_cuda and not the standard one that only works with cpu to be able to use the department's GPUs for training. To do so:
+-- Install pytorch_cuda for training. To do so:
 
 conda install pytorch=*=*cuda* torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
