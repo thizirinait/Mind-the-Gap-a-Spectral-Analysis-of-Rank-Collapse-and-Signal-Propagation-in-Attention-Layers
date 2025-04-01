@@ -1,4 +1,4 @@
-FIGURES FOR REBUTTAL TO BE FOUND IN figures_rebuttal.pdf
+FIGURES FOR REBUTTAL TO BE FOUND IN THE FOLLOWING PDF FILE: figures_rebuttal.pdf
 
 
 -- Install pytorch_cuda for training in a conda env. To do so:
