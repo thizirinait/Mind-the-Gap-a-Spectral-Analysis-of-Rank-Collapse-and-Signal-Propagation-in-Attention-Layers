@@ -1,3 +1,6 @@
+FIGURES FOR REBUTTAL TO BE FOUND IN figures_rebuttal.pdf
+
+
 -- Install pytorch_cuda for training in a conda env. To do so:
 
 conda install pytorch=*=*cuda* torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia 
